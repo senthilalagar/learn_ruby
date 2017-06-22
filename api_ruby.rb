@@ -72,19 +72,29 @@
 # end
 
 
-
+##############################################################
 
 # Parsing PDF File Ruby
 
-	    require 'open-uri'
-	    require 'rubygems'
-		require 'pdf-reader'
-    io     = open('http://www.cbec.gov.in/resources//htdocs-cbec/gst/gst_rates_approved%20_by_gst_council%20_11.06.2017.pdf')
-    file = File.open("/home/senthil/Desktop/ruby/pdf_new.txt",'w')
-    reader = PDF::Reader.new(io)
-    puts reader.info
-    puts reader.page_count
-    reader.pages.each do |page|
-    puts page
-    file.write(page)
-	end
+	#     require 'open-uri'
+	#     require 'rubygems'
+	# 	require 'pdf-reader'
+ #    io     = open('http://www.cbec.gov.in/resources//htdocs-cbec/gst/gst_rates_approved%20_by_gst_council%20_11.06.2017.pdf')
+ #    file = File.open("/home/senthil/Desktop/ruby/pdf_new.txt",'w')
+ #    reader = PDF::Reader.new(io)
+ #    puts reader.info
+ #    puts reader.page_count
+ #    reader.pages.each do |page|
+ #    puts page
+ #    file.write(page)
+	# end
+
+###################################################################
+
+#Compare Things 
+
+# email = "<fred@bloggs.com>"
+# @i = email[/([bce]).*?([fgh])/] 
+# puts @i
+
+
